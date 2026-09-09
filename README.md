@@ -6,7 +6,7 @@
 
 Desenvolvimento web e mobile, com foco em back-end, APIs e integrações.
 
-[GitHub](https://github.com/EvanAmorim18) · [LinkedIn](https://www.linkedin.com/in/evandro-amorim-96a52b205/)
+[LinkedIn](https://www.linkedin.com/in/evandro-amorim-96a52b205/)
 
 </div>
 
