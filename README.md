@@ -29,25 +29,17 @@ Minha trajetória inclui sistemas de gestão, aplicações financeiras, integra�
 | Ambiente de desenvolvimento | Git, Docker |
 | Sites e e-commerce | WordPress, Elementor, WooCommerce |
 
-### Meu GitHub em números
-
-<!-- Os cartões dependem de serviços externos e podem demorar para atualizar ou ficar temporariamente indisponíveis. -->
+### Meu GitHub neste ano
 
 <div align="center">
 
-<img width="49%" src="https://github-stats-extended.vercel.app/api?username=EvanAmorim18&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=58a6ff&amp;icon_color=58a6ff&amp;text_color=c9d1d9&amp;locale=pt-br" alt="Estatísticas do meu perfil no GitHub" />
-<img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=EvanAmorim18&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=58a6ff&amp;text_color=c9d1d9&amp;locale=pt-br" alt="Distribuição das linguagens nos meus repositórios públicos" />
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=EvanAmorim18&amp;bg_color=0d1117&amp;color=c9d1d9&amp;title_color=58a6ff&amp;line=58a6ff&amp;point=79c0ff&amp;area=true&amp;area_color=1f6feb&amp;hide_border=true&amp;days=31&amp;custom_title=Contribui%C3%A7%C3%B5es%20nos%20%C3%BAltimos%2031%20dias" alt="Gráfico de contribuições no GitHub nos últimos 31 dias" />
+<img width="100%" src="./assets/contributions-year.svg" alt="Contribuições do ano atual: resumo, totais por mês e calendário diário" />
 
 </div>
 
-<sub>As linguagens refletem o código dos repositórios públicos analisados, não o nível de domínio de cada tecnologia.</sub>
+<sub>Do dia 1º de janeiro até a última atualização indicada no gráfico. Dados visíveis no meu perfil público do GitHub; atualização diária. As contribuições incluem as atividades contabilizadas pelo GitHub, não apenas commits.</sub>
 
-<!-- Documentação dos gráficos:
-https://github.com/stats-organization/github-stats-extended
-https://github.com/Ashutosh00710/github-readme-activity-graph
--->
+<!-- Gráficos gerados por scripts/contributions.py e atualizados por .github/workflows/contributions.yml. O ano muda automaticamente em janeiro. -->
 
 ### O que você encontra no meu trabalho
 
