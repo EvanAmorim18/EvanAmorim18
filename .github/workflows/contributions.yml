@@ -1,0 +1,43 @@
+name: Update contributions chart
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/contributions.yml"
+      - "scripts/contributions.py"
+
+jobs:
+  update-chart:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate contribution chart
+        run: python scripts/contributions.py
+
+      - name: Commit chart when it changes
+        run: |
+          git add assets/contributions-year.svg
+          if git diff --cached --quiet; then
+            echo "Contribution chart is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update contributions chart"
+          git push
